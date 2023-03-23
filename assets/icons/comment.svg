@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="vuesax_outline_message-2" data-name="vuesax/outline/message-2" transform="translate(-492 -316)">
+    <g id="message-2">
+      <path id="Vector" d="M7.75,1.5h-7A.755.755,0,0,1,0,.75.755.755,0,0,1,.75,0h7A.755.755,0,0,1,8.5.75.755.755,0,0,1,7.75,1.5Z" transform="translate(499.75 325.75)" fill="#b7becc"/>
+      <path id="Vector-2" data-name="Vector" d="M14.75,20.63a1.777,1.777,0,0,1-.97-.29L9.52,17.5H5.75A5.443,5.443,0,0,1,0,11.75v-6A5.443,5.443,0,0,1,5.75,0h10A5.443,5.443,0,0,1,21.5,5.75v6a5.392,5.392,0,0,1-5,5.71v1.42a1.729,1.729,0,0,1-.92,1.54A1.763,1.763,0,0,1,14.75,20.63Zm-9-19.14A3.984,3.984,0,0,0,1.5,5.74v6a3.984,3.984,0,0,0,4.25,4.25h4a.718.718,0,0,1,.42.13l4.45,2.96a.252.252,0,0,0,.39-.21V16.74a.755.755,0,0,1,.75-.75,3.984,3.984,0,0,0,4.25-4.25v-6a3.984,3.984,0,0,0-4.25-4.25Z" transform="translate(493.25 317.69)" fill="#b7becc"/>
+      <path id="Vector-3" data-name="Vector" d="M0,0H24V24H0Z" transform="translate(492 316)" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

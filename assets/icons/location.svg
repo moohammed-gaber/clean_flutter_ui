@@ -1,0 +1,8 @@
+<svg id="Group_55169" data-name="Group 55169" xmlns="http://www.w3.org/2000/svg" width="28.525" height="28.525" viewBox="0 0 28.525 28.525">
+  <ellipse id="Ellipse_2860" data-name="Ellipse 2860" cx="11.789" cy="3.301" rx="11.789" ry="3.301" transform="translate(2.474 21.923)" fill="#f0b14b" opacity="0.202"/>
+  <g id="vuesax_bold_location" data-name="vuesax/bold/location">
+    <path id="Vector" d="M20.8,7.963A10.252,10.252,0,0,0,10.554,0h-.012A10.25,10.25,0,0,0,.3,7.951c-1.391,6.133,2.365,11.327,5.764,14.6a6.444,6.444,0,0,0,8.973,0C18.434,19.278,22.19,14.1,20.8,7.963ZM10.554,13.918A3.744,3.744,0,1,1,14.3,10.174,3.743,3.743,0,0,1,10.554,13.918Z" transform="translate(3.708 2.08)" fill="#f0b14b"/>
+    <path id="Vector-2" data-name="Vector" d="M0,0H28.525V28.525H0Z" transform="translate(0 0)" fill="none" opacity="0"/>
+    <path id="Vector-3" data-name="Vector" d="M0,0H28.525V28.525H0Z" transform="translate(28.525 28.525) rotate(180)" fill="none" opacity="0"/>
+  </g>
+</svg>
