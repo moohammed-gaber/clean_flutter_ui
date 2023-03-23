@@ -9,6 +9,7 @@ import 'package:responsive_flutter/widgets/category_blue_card.dart';
 import 'package:responsive_flutter/widgets/custom_rating_bar_indicator.dart';
 import 'package:responsive_flutter/widgets/post_reaction_button.dart';
 import 'package:responsive_flutter/widgets/working_hours_tile.dart';
+import 'package:google_maps_flutter/google_maps_flutter.dart';
 
 class RestaurantDetails extends StatelessWidget {
   RestaurantDetails({Key? key}) : super(key: key);
@@ -225,13 +226,14 @@ class RestaurantDetails extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text('About',
-                    style: styles.medium12.copyWith(fontSize: 14),
+                    Text(
+                      'About',
+                      style: styles.medium12.copyWith(fontSize: 14),
                     ),
                     SizedBox(height: 10.h),
                     Text(
-                        'You Can Submit your visa application now the required documents must be prepared tow or three days before biometric You Can Submit your visa application now the required documents must be prepared tow or three days before biometric You Can Submit your visa application now the required documents must be prepared tow or three days before biometric You Can Submit your visa application now the required documents must be prepared tow or three days before biometric',
-                    style: styles.regular12.copyWith(fontSize: 13),
+                      'You Can Submit your visa application now the required documents must be prepared tow or three days before biometric You Can Submit your visa application now the required documents must be prepared tow or three days before biometric You Can Submit your visa application now the required documents must be prepared tow or three days before biometric You Can Submit your visa application now the required documents must be prepared tow or three days before biometric',
+                      style: styles.regular12.copyWith(fontSize: 13),
                     )
                   ],
                 ),
@@ -240,9 +242,16 @@ class RestaurantDetails extends StatelessWidget {
           ),
           Padding(
             padding: const EdgeInsets.all(8.0),
+            child: SizedBox(
+                height: 215.h,
+                child: GoogleMap(
+                  initialCameraPosition: CameraPosition(target: LatLng(30, 30)),
+                )),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
             child: Text('Visitor Reviews',
                 style: styles.medium12.copyWith(fontSize: 14)),
-
           ),
           Padding(
             padding: const EdgeInsets.all(8.0),
@@ -272,7 +281,8 @@ class RestaurantDetails extends StatelessWidget {
                             ],
                           ),
                           Padding(
-                            padding: const EdgeInsets.only(top: 16, bottom: 12).r,
+                            padding:
+                                const EdgeInsets.only(top: 16, bottom: 12).r,
                             child: Text(
                                 'Great Place in Egypt I love it so Much and I will visit it again'),
                           ),
@@ -287,7 +297,9 @@ class RestaurantDetails extends StatelessWidget {
                           Row(
                             children: [
                               PostReactionButton(
-                                  name: 'Like', icon: Assets.icons.like, count: 12),
+                                  name: 'Like',
+                                  icon: Assets.icons.like,
+                                  count: 12),
                               SizedBox(width: 24.w),
                               PostReactionButton(
                                   name: 'Reply',
